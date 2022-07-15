@@ -1,0 +1,46 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 2rem 0rem 0rem 4rem;
+}
+
+.line{
+  border: 1px solid rgba(255,255,255,.3);
+  width: 1000px;
+  position: relative;
+  top: 0;
+  left: 2rem;
+  z-index: 1;
+}
+
+.navlists{
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,.05);
+  width: 100%;
+  backdrop-filter: blur(5px);
+/*   margin-left: 10rem; */
+  
+}
+
+.navlist{
+  list-style: none;
+  padding: 2rem 0rem 2rem 0rem;
+  margin-left: 4rem;
+  color:  rgba(255,255,255,.8);
+  font-size: 12px;
+  border-bottom: 2px solid rgba(255,255,255,0);
+  transition: all .5s ease-in .2s;
+  cursor: pointer;
+}
+
+.navlist:hover{
+  border-bottom: 2px solid rgba(255,255,255,1);
+}
+
+.spannum{
+  color:  rgba(255,255,255,1);
+  font-size: 14px;
+  padding-right: 5px;
+  font-weight: 700;
+}
